@@ -1,10 +1,13 @@
 /*
 Theme Name: Avada Child
+Theme URI: http://theme-fusion.com/avada/
 Description: Child theme for Avada theme
 Author: ThemeFusion
-Author URI: https://theme-fusion.com
+Author URI: http://themeforest.net/user/ThemeFusion
 Template: Avada
-Version: 1.0.0
+Version: 3.9.4
+License: Themeforest Split Licence
+License URI: -
 Text Domain:  Avada
 */
 
@@ -17,7 +20,6 @@ Text Domain:  Avada
 
 h1.parralax {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  text-align: center;
   font-size: 57px;
   line-height: 75px;
   color: #ffffff !important;
@@ -28,14 +30,18 @@ h2.parralax{
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-h2.description {
+.description {
   color: #096faf !important;
 }
 
+.center-text{
+  text-align: center;
+}
+
 .right-text{
-  text-align: right !important;
+  text-align: right;
 }
 
 .left-text{
-  text-align: left !important;
+  text-align: left;
 }
