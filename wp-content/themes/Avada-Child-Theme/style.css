@@ -11,37 +11,31 @@ License URI: -
 Text Domain:  Avada
 */
 
-
 .fusion-header-wrapper .fusion-header {
     background: #4d8ab0;
     transition: .5s background ease;
 }
-
-
-h1.parralax {
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  font-size: 57px;
-  line-height: 75px;
-  color: #ffffff !important;
+body.parralax {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+body h1.parralax {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+body h2.parralax {
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-h2.parralax{
-  color: #ffffff !important;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+img.fusion-sticky-logo-1x{
+  display: inline-block;
+  float: left;
 }
 
-.description {
-  color: #096faf !important;
-}
-
-.center-text{
-  text-align: center;
-}
-
-.right-text{
-  text-align: right;
-}
-
-.left-text{
-  text-align: left;
+.logo-text {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 35px;
+    line-height: 40px;
 }
