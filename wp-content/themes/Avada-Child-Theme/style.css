@@ -15,13 +15,21 @@ Text Domain:  Avada
     background: #4d8ab0;
     transition: .5s background ease;
 }
+
+.fusion-portfolio-content-wrapper {
+    text-align: center;
+}
+
+
 body.parralax {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
 body h1.parralax {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     color: #ffffff;
 }
+
 body h2.parralax {
     color: #ffffff;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
