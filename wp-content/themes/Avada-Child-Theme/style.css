@@ -36,20 +36,21 @@ body h2.parralax {
 }
 
 .fusion-logo-link img{
-  display: inline-block;
   float: left;
 }
 
 .logo-text {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: bottom;
-    font-size: 35px;
-    line-height: 40px;
-    transition: all .2s linear;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
+  vertical-align: bottom;
+  font-size: 35px;
+  line-height: 40px;
+  transition: all .2s linear;
 }
 .fusion-is-sticky .logo-text {
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 .fusion-header {
   height: auto !important;
