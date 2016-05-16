@@ -17,4 +17,9 @@ function avada_lang_setup() {
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
 
+
+// add_action( 'avada_logo_prepend', 'avada_add_logo_text' );
+// function avada_add_logo_text() {
+//  echo '<h1>Here is the text</h1>';
+// }
 ?>
