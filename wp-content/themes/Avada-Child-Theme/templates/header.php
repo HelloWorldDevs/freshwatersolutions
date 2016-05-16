@@ -264,6 +264,7 @@ if ( ! function_exists( 'avada_logo' ) ) {
 						<?php $retina_logo = Avada_Sanitize::get_url_with_correct_scheme( $retina_logo ); ?>
 						<?php $style = 'style="max-height: ' . $logo_size['height'] . 'px; height: auto;"'; ?>
 						<img src="<?php echo $retina_logo; ?>" width="<?php echo $logo_size['width']; ?>" height="<?php echo $logo_size['height']; ?>" alt="<?php bloginfo('name'); ?>" <?php echo $style; ?> class="fusion-standard-logo fusion-logo-2x" />
+						<h1 class="logo-text">Freshwater Solutions</h1>
 					<?php else: ?>
 						<img src="<?php echo $logo_url; ?>" width="<?php echo $logo_size['width']; ?>" height="<?php echo $logo_size['height']; ?>" alt="<?php bloginfo('name'); ?>" class="fusion-standard-logo fusion-logo-2x" />
 						<h1 class="logo-text">Freshwater Solutions</h1>

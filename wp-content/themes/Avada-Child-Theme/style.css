@@ -46,4 +46,14 @@ img.fusion-sticky-logo-1x{
     vertical-align: bottom;
     font-size: 35px;
     line-height: 40px;
+    transition: all .2s linear;
+}
+.fusion-is-sticky .logo-text {
+    margin-top: 8px;
+}
+.fusion-header {
+  height: auto !important;
+}
+div#main {
+  padding-top: 0;
 }
