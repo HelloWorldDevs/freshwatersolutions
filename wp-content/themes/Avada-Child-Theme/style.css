@@ -45,6 +45,7 @@ body h2.parralax {
    display: block;
   }
 .logo-text {
+  color: #a0ce4e;
   margin-left: .5rem;
   display:inline;
   display:inline-table;
