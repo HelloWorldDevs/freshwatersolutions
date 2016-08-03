@@ -73,3 +73,17 @@ body h2.parralax {
 div#main {
   padding-top: 0;
 }
+
+
+@media screen and (max-width: 710px){
+  .logo-text{
+    font-size: 17px;
+  }
+  .fusion-header{
+    padding: .5rem;
+  }
+
+  .fusion-header img{
+    width: 3.5rem;
+  }
+}
