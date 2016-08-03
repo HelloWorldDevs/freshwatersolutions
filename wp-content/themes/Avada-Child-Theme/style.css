@@ -77,7 +77,7 @@ div#main {
 
 @media screen and (max-width: 710px){
   .logo-text{
-    font-size: 17px;
+    font-size: 25px;
   }
   .fusion-header{
     padding: .5rem;
@@ -85,5 +85,11 @@ div#main {
 
   .fusion-header img{
     width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .logo-text{
+    font-size: 17px;
   }
 }
