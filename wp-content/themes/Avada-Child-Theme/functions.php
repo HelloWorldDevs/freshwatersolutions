@@ -22,4 +22,13 @@ add_action( 'after_setup_theme', 'avada_lang_setup' );
 // function avada_add_logo_text() {
 //  echo '<h1>Here is the text</h1>';
 // }
+
+function load_scripts() {
+  wp_register_script( 'categories-filter', get_stylesheet_directory_uri() . '/index.js', array('jquery', 'jquery.isotope'), '1.11.2', true );
+   wp_register_script( 'jquery.isotope', get_bloginfo('template_directory').'/assets/js/isotope.js', array(), false, true);
+   wp_enqueue_script( 'categories-filter' );
+  wp_enqueue_script( 'jquery.isotope' );
+}
+
+add_action('wp_enqueue_scripts', 'load_scripts');
 ?>
