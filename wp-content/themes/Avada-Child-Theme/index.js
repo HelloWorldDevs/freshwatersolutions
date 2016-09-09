@@ -1,10 +1,11 @@
 
 jQuery(window).load(function() {
   var url = window.location.href;
+  var hash = window.location.hash;
   var tag = '.' + url.split('#')[1];
   var pathname = window.location.pathname;
 
-  if(pathname === '/portfolio/'){
+  if(pathname === '/portfolio/' && hash){
     console.log('works!')
     setTimeout(function(){
       jQuery('.fusion-portfolio-wrapper').isotope({ filter: tag });
