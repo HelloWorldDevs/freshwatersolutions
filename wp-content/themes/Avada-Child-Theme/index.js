@@ -6,7 +6,6 @@ jQuery(window).load(function() {
   var pathname = window.location.pathname;
 
   if(pathname === '/portfolio/' && hash){
-    console.log('works!')
     setTimeout(function(){
       jQuery('.fusion-portfolio-wrapper').isotope({ filter: tag });
     }, 700);
